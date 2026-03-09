@@ -29,5 +29,166 @@
       developer
     </title>
   </head>
-  <body></body>
+  <body>
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SheCodes Portfolio</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+          crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://kit.fontawesome.com/ddc3ee268a.js"
+          crossorigin="anonymous"
+        ></script>
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-end">
+          <div class="container">
+            <a class="navbar-brand" href="index.html" title="Homepage">
+              Kimberley Thornton
+            </a>
+            <button
+              class="navbar-toggler order-lg-3 ms-lg-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto order-lg-2">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    title="Kimberley's Homepage"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="about.html"
+                    title="About Kimberley Thornton"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="projects.html"
+                    title="Kimberley's Projects"
+                    >Projects</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="contact.html"
+                    title="Contact Kimberley Thornton"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="main-container">
+          <div class="greetings-container">
+            <h2 class="greeting-header">Hi, my name is</h2>
+            <h1 class="text-center">Kimberley Thornton</h1>
+            <h3 class="mb-5">
+              Front-end developer based in the United Kingdom
+            </h3>
+            <div>
+              <a href="#" class="btn btn-branding">Let's get started</a>
+            </div>
+          </div>
+        <section>
+         <h3 id="projects">
+        Some featured projects from my time in Frontend Development..
+         </h3>
+        </section>
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col d-none d-lg-block">
+              <img src="images/fitness.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col">
+              <div class="project-desciption">
+                <h2 class="mb-5">Fitness Project</h2>
+                <p class="mb-5">
+                    Fitness, especially resistance training, is a huge part of my life
+                    which is why I chose this as the topic for my Basics Add on Final 
+                    Project. With this workshop, I learned how to build a website
+                    landing page from scratch, packed with cool features, and how to add
+                    engaging elements to my pages with advanced techniques in HTML, CSS
+                    and JavaScript.</p>
+                <a href="/projects.html#fitness-project" class="btn btn-branding-outline"> View project detail </a>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <div class="project-desciption">
+                <h2 class="mb-5">Weather Project</h2>
+                <p class="mb-5 text-muted">
+                    Here's a Weather Forecast App I created as part of the SheCodes Plus
+                    curriculum. With this workshop, I learned how to use advanced
+                    JavaScript techniques in order to build an interactive weather
+                    application, how to integrate a live API to fetch live data and how
+                    to use Git and GitHub to manage my code.
+                </p>
+                <a href="" class="btn btn-branding-outline"> View project detail </a>
+              </div>
+            </div>
+            <div class="col d-none d-lg-block">
+              <img src="images/weather2.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-none d-lg-block">
+              <img src="images/world-clock.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col">
+              <div class="project-desciption">
+                <h2 class="mb-5">Dictionary App</h2>
+                <p class="mb-5 text-muted">
+                    Here's a fully functioning world clock application I built as part
+                    of the SheCodes Plus Add-on curriculum. This workshop taught me the
+                    potential of advanced Javascript, allowing me to build more
+                    sophisticated interactions and features into my projects, again with
+                    a focus on using APIs to fetch live data, this time displaying in
+                    real time.
+                </p>
+                <a href="" class="btn btn-branding-outline"> View project detail </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+  </body>
 </html>
