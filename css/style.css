@@ -57,6 +57,27 @@ section {
   font-weight: 700;
 }
 
+.about-me-container {
+  margin: 20px;
+}
+
+.about-me-header {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.portfolio-image img {
+  width: 600px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.all-projects-button-wrapper {
+  text-align: center;
+}
+
 .button-branding {
   background-color: var(--branding-color);
   font-family: var(--default-font-family);
