@@ -30,3 +30,7 @@ body {
   margin: 0 auto;
   padding: 40px;
 }
+
+h1 {
+  font-family: var(--heading-font-family);
+}
