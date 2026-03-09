@@ -38,7 +38,7 @@ h1 {
   font-weight: 700;
 }
 .greetings-container {
-  margin: 60px 60px 160px 60px;
+  margin: 100px 60px 160px 80px;
 }
 
 .get-started-btn-container {
@@ -115,7 +115,7 @@ section {
   font-weight: 400;
   font-size: 20px;
   border-radius: 4px;
-  margin: 50px;
+  margin: 20px;
   padding: 15px 30px;
   color: white;
   text-decoration: none;
@@ -144,24 +144,35 @@ section {
   color: var(--tertiary-color);
   text-decoration: none;
 }
-footer {
-  margin: 60px 0;
+
+.contact-page-header {
+  margin: 60px 40px 100px 20px;
+  font-size: 86px;
 }
 
-footer .contact-box {
+.contact-box {
+  margin-top: 80px;
   background: var(--secondary-color);
-  padding: 30px 120px;
+  padding: 20px 120px;
   border-radius: 10px;
 }
 
-footer .contact-box p {
-  margin: 0;
+.contact-box h4 {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.contact-box p {
+  font-family: var(--default-font-family);
+  font-size: 24px;
 }
 
 footer .email-link {
   text-decoration: none;
-  color: black;
-  font-size: 24px;
+  color: var(--tertiary-color);
+  font-size: 28px;
+  font-weight: 500;
 }
 
 footer .email-link:hover {
@@ -169,7 +180,7 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  margin: 0 20px;
+  margin: 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
   padding: 10px 14px;
