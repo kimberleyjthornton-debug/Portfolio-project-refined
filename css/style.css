@@ -205,6 +205,9 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
+  .navbar {
+    margin-bottom: 40px;
+  }
   h1 {
     font-size: 50px;
     line-height: 1.5;
