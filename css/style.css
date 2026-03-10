@@ -229,6 +229,7 @@ footer .social-links a:hover {
   }
   .email-link {
     margin-top: 40px;
+    font-size: 22px !important;
   }
   .contact-page-header,
   .project-page-header {
