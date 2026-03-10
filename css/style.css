@@ -226,13 +226,15 @@ footer .social-links a:hover {
   .about-me-header {
     font-size: 34px;
   }
-  .email-link a {
-    margin-top: 50px;
+  .email-link {
+    margin-top: 40px;
   }
   .contact-page-header,
   .project-page-header {
-    font-size: 44px;
+    font-size: 40px;
     text-align: center;
+    margin: 20px;
+    padding: 5px;
   }
   .project-group {
     border-bottom: 1px solid #3f3f3f1f;
