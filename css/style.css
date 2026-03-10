@@ -38,6 +38,7 @@ h1 {
   font-size: 96px;
   font-weight: 800;
 }
+
 .greetings-container {
   text-align: center;
   margin-bottom: 150px;
@@ -208,17 +209,19 @@ footer .social-links a:hover {
     font-size: 50px;
     line-height: 1.5;
   }
-  .home-project-headings {
-    margin-top: 2px !important;
-  }
   .content {
     text-align: center;
     margin-top: 5px;
+  }
+  .home-project-headings {
+    margin-top: 0 !important;
   }
   .view-project-btns {
     display: flex;
     justify-content: center;
     margin: 0;
+    border-bottom: 1px solid #3f3f3f1f;
+    padding-bottom: 40px;
   }
   .email-link {
     margin-top: 50px;
@@ -226,7 +229,7 @@ footer .social-links a:hover {
 
   @media (max-width: 597px) {
     .navbar {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     .greetings-container p {
       font-size: 28px;
