@@ -232,7 +232,7 @@ footer .social-links a:hover {
 
   @media (max-width: 597px) {
     .navbar {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
     .greetings-container p {
       font-size: 28px;
